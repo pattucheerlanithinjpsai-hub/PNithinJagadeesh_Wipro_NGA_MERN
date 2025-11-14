@@ -1,0 +1,20 @@
+{
+  "name": "wipro-nga-mern-24th-oct",
+  "version": "1.0.0",
+  "description": "sampleNodeJsApp",
+  "homepage": "https://github.com/pattucheerlanithinjpsai-hub/PNithinJagadeesh_Wipro_NGA_MERN#readme",
+  "bugs": {
+    "url": "https://github.com/pattucheerlanithinjpsai-hub/PNithinJagadeesh_Wipro_NGA_MERN/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattucheerlanithinjpsai-hub/PNithinJagadeesh_Wipro_NGA_MERN.git"
+  },
+  "license": "ISC",
+  "author": "Nithin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

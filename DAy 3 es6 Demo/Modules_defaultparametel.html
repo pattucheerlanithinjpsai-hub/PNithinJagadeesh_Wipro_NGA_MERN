@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greet(name ,greeting = "Hello") {
+            return '${greeting}, ${name}!';
+        }
+        console.log(greet("Alice"));
+        console.log(greet("Bob", "Hi"));
+    </script>
+        <!--reusing mathUtiles.js which is defined as a separate file -->
+    <script types="module">
+        import { square,cube,fractorial,power} from './mathUtiles.js';
+           
+        document.body.innerHtml += '<p>${greet("Bob", "Hi")}</p>';
+        document.body.innerHtml += '<p>${square(5)}</p>';
+        document.body.innerHtml += '<p>${cube(3)}</p>';
+        document.body.innerHtml += '<p>${fractorial(4)}</p>';
+        document.body.innerHtml += '<p>${power(2,3)}</p>';
+    </script>
+</body>
+</html>
