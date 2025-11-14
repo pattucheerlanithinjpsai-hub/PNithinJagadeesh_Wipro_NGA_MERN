@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Spring Flowers School</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: url('bgv.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    button {
+      background-color: rgb(0, 0, 0) !important;
+      color: white !important;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="header">
+      <img src="logo.jpg" alt="School Logo" class="logo">
+      <h1>Spring Flowers School</h1>
+    </div>
+
+    <div class="top-buttons">
+      <button onclick="openProfile()">👤 Student Profile</button>
+      <button onclick="openAbout()">ℹ️ About</button>
+      <button onclick="logout()">🚪 Logout</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 id="welcomeText"></h2>
+
+    <div class="dashboard-cards">
+      <button onclick="openProfile()">👤 Student Profile</button>
+      <button onclick="openTimeTable()">📅 Time Table</button>
+      <button onclick="openMonthly()">📚 Monthly Activities</button>
+      <button onclick="openAbout()">ℹ️ About</button>
+      <button onclick="logout()">🚪 Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

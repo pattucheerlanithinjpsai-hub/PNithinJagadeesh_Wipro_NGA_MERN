@@ -1,0 +1,15 @@
+{
+  "name": "user_story-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "figlet": "^1.9.3"
+  }
+}
+

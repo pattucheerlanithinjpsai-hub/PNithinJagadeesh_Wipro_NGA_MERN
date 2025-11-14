@@ -1,0 +1,7 @@
+{
+  "books": [
+    { "id": 1, "title": "“My Experiments with Truth”", "author": "Mahatma Gandhi", "description": "An autobiography of Mahatma Gandhi, detailing his early life, struggles, and philosophy of non-violence.", "price": 1000 },
+    { "id": 2, "title": "The Broken Wings", "author": "Sarojini Naidu", "description": "A poetic novel by Sarojini Naidu, exploring themes of love and loss.", "price": 1500 },
+    { "id": 3, "title": "Unhappy India ", "author": "Lala Lajpat Rai", "description": "A critical analysis of the socio-political conditions in India during the early 20th century.", "price": 2000 }
+  ]
+}

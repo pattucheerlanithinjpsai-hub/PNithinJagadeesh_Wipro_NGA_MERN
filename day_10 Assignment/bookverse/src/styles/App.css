@@ -1,0 +1,21 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  margin-right: 12px;
+}
+
+.toggle-buttons button {
+  padding: 8px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+}

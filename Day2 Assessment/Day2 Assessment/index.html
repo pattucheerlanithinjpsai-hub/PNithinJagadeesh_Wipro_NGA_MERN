@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #e3eb6b 0%, #4ba29f 100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Spring Flowers School</h2>
+
+    <!-- Login Box -->
+    <div class="form-box" id="loginBox">
+      <h3>Login</h3>
+      <input type="text" id="loginUsername" placeholder="Username">
+      <input type="password" id="loginPassword" placeholder="Password">
+      <button onclick="login()">Login</button>
+      <p>Don't have an account? <a onclick="showRegister()">Register</a></p>
+    </div>
+
+    <!-- Register Box -->
+    <div class="form-box hidden" id="registerBox">
+      <h3>Register</h3>
+      <input type="text" id="regUsername" placeholder="Enter Username">
+      <input type="password" id="regPassword" placeholder="Enter Password">
+      <button onclick="register()">Register</button>
+      <p>Already registered? <a onclick="showLogin()">Login</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

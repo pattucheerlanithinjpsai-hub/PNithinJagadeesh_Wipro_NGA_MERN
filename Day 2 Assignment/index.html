@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="login-container">
+    <h2>Student Login</h2>
+    <input type="text" id="studentName" placeholder="Enter your name" />
+    <input type="password" id="studentPassword" placeholder="Enter password" />
+    <button onclick="login()">Login</button>
+    <p id="loginMessage"></p>
+  </div>
+
+  <div class="container hidden" id="welcome-container">
+    <h2>Welcome, <span id="studentDisplayName"></span>!</h2>
+    <button onclick="showReport()">View Monthly Report</button>
+  </div>
+
+  <div class="container hidden" id="report-container">
+    <h2>Monthly Report</h2>
+    <ul>
+      <li><strong>Attendance:</strong> 92%</li>
+      <li><strong>Subjects:</strong> Math, Science, Music</li>
+      <li><strong>Grades:</strong> A, B+, A-</li>
+    </ul>
+    <h3>Monthly Activities</h3>
+    <ul>
+      <li>Project Submission</li>
+      <li>Project Title: Music project for students aged 12–15</li>
+      <li>File Type: PDF</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

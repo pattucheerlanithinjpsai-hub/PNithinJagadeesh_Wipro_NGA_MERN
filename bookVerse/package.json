@@ -1,0 +1,13 @@
+{
+  "name": "bookverse",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "indexes": "node src/indexes/createIndexes.js",
+    "aggregations": "node src/aggregations/aggregationQueries.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}

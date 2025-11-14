@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff7ed;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #f6b26b;
+    padding: 15px 40px;
+    border-bottom: 3px solid #d69a4a;
+    display: flex;
+    justify-content: flex-start; /* align left */
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  .logo-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    border: 2px solid #333;
+    background-color: white;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .welcome {
+    margin-top: 80px;
+    background-color: #f6b26b;
+    padding: 50px 35px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #d69a4a;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  }
+  
+  .welcome h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .welcome p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .profile-btn {
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .profile-btn:hover {
+    background-color: #333;
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  .profile {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .student-card {
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .student-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #f6b26b;
+  }
+  
+  .student-info h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .student-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .back-container {
+    margin-top: 25px;
+  }
+  
