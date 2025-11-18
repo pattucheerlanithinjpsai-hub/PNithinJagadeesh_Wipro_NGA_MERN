@@ -1,0 +1,12 @@
+{
+    "comilerOptions":{
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true
+        "skipLibCheck": true,
+        "foreceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+    
+    }
+}

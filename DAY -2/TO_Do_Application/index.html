@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding external css Link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>To Do Application</h1>
+    <div>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button id="addTaskButton">Add Task</button>
+        <!-- Creating a delete button -->
+        <button id="deleteTaskButton">Delete Completed Tasks</button>
+    </div>
+    <ul id="taskList">
+        <!-- Task items will be added here dynamically -->
+         <!-- Task will be created/deleted with the help of DOM manipulation when it is required  -->
+    </ul>
+
+    <script src="script.js"></script>
+    <!-- calling addTask function -->
+    <script>
+        addTask();
+
+    </script>
+    <!-- calling deleteTask function -->
+    <script>
+        deleteCompletedTasks();
+    </script>
+ </body>
+ </html>
